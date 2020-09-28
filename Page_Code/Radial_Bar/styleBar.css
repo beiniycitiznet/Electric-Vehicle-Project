@@ -1,0 +1,57 @@
+.stateBar:hover {
+  opacity:1.0;
+}
+
+.stateBar{
+  opacity:0.5;
+}
+
+.titleText {
+  font-size: 45px;
+  font-weight: bold;
+  font-family:'American Typewriter';
+  color: transparent;
+  text-shadow: 0 0 0 rgba(255,255,255,0.3), 0 0 0 rgba(255,255,255,0.3), 0 0 0 rgba(255,255,255,0.1), 0 0 0 rgba(255,255,255,0.1), 0 0 5px rgba(0,0,0,0.5);
+  -webkit-transition: all 1s;
+}
+
+
+svg {
+  size: 500px;
+  margin-left:70px;
+}
+
+body{
+  position: absolute;
+  background-size: cover;
+  
+}
+
+body::after {
+  /* position: relative; */
+  background: url('https://www.colourbox.com/preview/37016740-ev-charging-station-round-vector-illustration-in-thin-line-style.jpg');
+  background-size: cover;
+  opacity:0.1;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+}
+
+img {
+  position: absolute;
+  bottom:750px;
+}
+
+.legendText {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.stateName {
+  font-weight: bold;
+}
+
